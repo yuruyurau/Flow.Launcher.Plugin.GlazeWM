@@ -1,0 +1,12 @@
+{
+    "ID": "CACAC51F-9792-44A0-9B84-E9051153D34F",
+    "ActionKeyword": "w",
+    "Name": "GlazeWM",
+    "Description": "GlazeWM commands for Flow Launcher",
+    "Author": "yuruyurau",
+    "Version": "1.0.0",
+    "Language": "csharp",
+    "Website": "https://github.com/yuruyurau/Flow.Launcher.Plugin.GlazeWM",
+    "IcoPath": "assets/icon.png",
+    "ExecuteFileName": "Flow.Launcher.Plugin.GlazeWM.dll"
+}
