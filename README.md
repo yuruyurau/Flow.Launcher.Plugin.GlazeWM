@@ -32,6 +32,8 @@ Type `w` followed by a command: `w <query>`
 - `move → workspace 1` ~ `move → workspace 9`
 - `switch profile: no outer` / `switch profile: with outer` (see Optional)
 
+> **Note:** On GlazeWM 3.10.0+, `toggle window management` does not stop intercepting hotkeys (known issue: [glzr-io/glazewm#1370](https://github.com/glzr-io/glazewm/issues/1370)). It works as expected on 3.9.1.
+
 ## Installation
 
 ```text
