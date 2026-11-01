@@ -12,6 +12,8 @@ Flow Launcher.
 | :--------------------------------------: | :------------------------------------: |
 | ![Light](./assets/screenshot_light.webp) | ![Dark](./assets/screenshot_dark.webp) |
 
+https://github.com/user-attachments/assets/8b9efae8-af42-4050-a4dc-20424ecf2c33
+
 <sub>Using
 [yuruyurau/Flow.Launcher.Theme.A](https://github.com/yuruyurau/Flow.Launcher.Theme.A)
 for the preview.</sub>
