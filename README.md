@@ -34,6 +34,12 @@ Type `w` followed by a command: `w <query>`
 
 ## Installation
 
+```text
+pm install https://github.com/yuruyurau/Flow.Launcher.Plugin.GlazeWM/releases/latest/download/GlazeWM.zip
+```
+
+**Or**
+
 1. Download the latest release from
    [Releases](https://github.com/yuruyurau/Flow.Launcher.Plugin.GlazeWM/releases).
 2. Extract the zip to `%APPDATA%/FlowLauncher/Plugins/GlazeWM/`.
