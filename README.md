@@ -65,10 +65,10 @@ pm install https://github.com/yuruyurau/Flow.Launcher.Plugin.GlazeWM/releases/la
    | merge deep {
        gaps: {
          outer_gap: {
-           top: "24px"
-           bottom: "14px"
-           right: "16px"
-           left: "16px"
+           top: "25px"
+           bottom: "13px"
+           right: "10px"
+           left: "10px"
          }
        }
      }
