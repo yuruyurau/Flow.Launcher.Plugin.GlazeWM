@@ -32,7 +32,8 @@ Type `w` followed by a command: `w <query>`
 - `move → workspace 1` ~ `move → workspace 9`
 - `switch profile: no outer` / `switch profile: with outer` (see Optional)
 
-> **Note:** On GlazeWM 3.10.0+, `toggle window management` does not stop intercepting hotkeys (known issue: [glzr-io/glazewm#1370](https://github.com/glzr-io/glazewm/issues/1370)). It works as expected on 3.9.1.
+> [!NOTE]
+> On GlazeWM 3.10.0+, `toggle window management` does not stop intercepting hotkeys (known issue: [glzr-io/glazewm#1370](https://github.com/glzr-io/glazewm/issues/1370)). It works as expected on 3.9.1.
 
 ## Installation
 
@@ -53,6 +54,12 @@ pm install https://github.com/yuruyurau/Flow.Launcher.Plugin.GlazeWM/releases/la
 2. Make sure [Nushell](https://github.com/nushell/nushell) (`nu`) is available
    in your PATH.
 3. Use `w switch` in Flow Launcher to switch profiles.
+
+> [!WARNING]
+> Since Nushell's `to yaml` re-serializes the file, running these scripts will strip comments and blank lines from your `config.yaml` and reformat inline styles (e.g., `{ equals: "..." }`) into multi-line block style. Create a backup before using this feature if you want to preserve your original formatting or comments:
+> ```nushell
+> cp ~/.glzr/glazewm/config.yaml ~/.glzr/glazewm/config.yaml.bak
+> ```
 
    <details>
    <summary>switch_no_outer.nu</summary>
